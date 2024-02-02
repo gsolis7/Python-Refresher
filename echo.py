@@ -5,7 +5,7 @@ def echo(text: str, repetitions: int = 3) -> str:
             pass
         else:
             print(text[-i:])
-    print(".")
+    return (".")
 
 
 if __name__ == "__main__":
